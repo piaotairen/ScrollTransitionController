@@ -35,7 +35,7 @@ class CBScrollTabBarViewController: CBContainerViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func handlePan(_ gesture: UIPanGestureRecognizer) {
+    @objc func handlePan(_ gesture: UIPanGestureRecognizer) {
         if viewControllers == nil || viewControllers?.count < 2 || containerTransitionDelegate == nil || !(containerTransitionDelegate is CBContainerViewControllerDelegate) {
             return;
         }
