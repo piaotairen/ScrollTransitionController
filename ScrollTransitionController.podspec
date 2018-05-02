@@ -5,6 +5,8 @@
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
+#  how to manage your cocopods lib? see https://blog.csdn.net/skylin19840101/article/details/50426822 (在CocoaPods上管理框架)
+#
 
 Pod::Spec.new do |s|
 
