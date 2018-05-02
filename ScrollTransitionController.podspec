@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ScrollTransitionController"
-  s.version      = "0.0.4"
+  s.version      = "0.0.6"
   s.summary      = "ScrollTransitionController is a viewController container whitch use transition to support gesture interactive."
 
   # This description is used to generate tags and improve search results.
